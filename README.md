@@ -39,34 +39,34 @@ The game is controlled using the keyboard, with the player entering the coordina
 Here is an example of a game being played:
 Input Co-ordinates with a space and with in rage of [1,1] to [3,3].
 
-#### chance of player 1 : 1 1
+```bash
 
-|X| | |</br>
-| | | |</br>
+Input Co-ordinates with a space and with in rage of [1,1] to [3,3].
+
+chance of player 1 : 2 2
 | | | |
-
-#### chance of player 2 : 2 2
-
-|X| | |</br>
-| |O| |</br>
+| |X| |
 | | | |
-
-#### chance of player 1 : 1 2
-
-|X|X| | </br>
-| |O| |</br>
+chance of player 2 : 1 1
+|O| | |
+| |X| |
 | | | |
-
-#### chance of player 2 : 3 2
-
-|X|X| |</br>
-| |O|O|</br>
+chance of player 1 : 1 3
+|O| |X|
+| |X| |
 | | | |
-
-#### chance of player 1 : 1 3
-
-|X|X|X|</br>
-| |O|O|</br>
-| | | |
-
-### player 1 wins
+chance of player 2 : 3 1
+|O| |X|
+| |X| |
+|O| | |
+chance of player 1 : 2 3
+|O| |X|
+| |X|X|
+|O| | |
+chance of player 2 : 2 1
+|O| |X|
+|O|X|X|
+|O| | |
+player 2 win
+[sonigaurav@sonigaurav-fedora ~]$
+```
