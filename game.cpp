@@ -32,7 +32,7 @@ bool check_win(char arr[3][3]){
 }
 int main()
 { 
-    cout<<"Input Co-ordinates with a space and with in rage of [1,1] to [3,3]."<<endl<<endl;
+    cout<<"Input Co-ordinates with a space and with in range of [1,1] to [3,3]."<<endl<<endl;
     char arr[3][3] = {
         {' ', ' ', ' '},
         {' ', ' ', ' '},
